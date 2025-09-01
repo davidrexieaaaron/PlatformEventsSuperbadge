@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
+		<members>BatchErrorEventHelper</members>
+		<members>BatchErrorEventTriggerTest</members>
 		<members>PilotRatingBatch</members>
 		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>BatchErrorEventTrigger1</members>
+		<name>ApexTrigger</name>
 	</types>
 	<types>
 		<members>Mission_Allocation__e.Contact_Id__c</members>
