@@ -23,5 +23,9 @@
 		<members>Submit_Mission</members>
 		<name>Flow</name>
 	</types>
+	<types>
+		<members>disconnectionNotice</members>
+		<name>LightningComponentBundle</name>
+	</types>
 	<version>64.0</version>
 </Package>
