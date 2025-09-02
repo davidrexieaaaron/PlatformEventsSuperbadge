@@ -1,4 +1,4 @@
-global class WellnessJourneyRewardsBatch implements Database.Batchable<sObject> {
+global class WellnessJourneyRewardsBatch implements Database.Batchable<sObject>, Database.AllowsCallouts {
 
     global Database.QueryLocator start(Database.BatchableContext BC) {
     
