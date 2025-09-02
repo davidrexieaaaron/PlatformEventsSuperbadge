@@ -129,7 +129,7 @@ private class WellnessJourneyRewardsBatchTest {
         Test.setMock(HttpCalloutMock.class, new RewardsCalloutServiceMock());
 
         Test.startTest();
-        Database.executeBatch(new WellnessJourneyRewardsBatch(), 5);
+        Database.executeBatch(new WellnessJourneyRewardsBatch());
         Test.stopTest();
 
         System.assertNotEquals(null, RewardsCalloutServiceMock.lastRequestBody, 'Expected a callout even if empty.');
